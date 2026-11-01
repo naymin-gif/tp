@@ -1,0 +1,194 @@
+{
+  "enableSearch": true,
+  "pages": [
+    {
+      "src": "AboutUs.md",
+      "title": "About Us",
+      "headings": {
+        "about-us": "About Us",
+        "project-team": "Project team",
+        "hein-lin-htet": "Hein Lin Htet",
+        "nay-min-thar": "Nay Min Thar",
+        "alpha": "Alpha",
+        "that-li": "That Li",
+        "jimmy-li": "Jimmy Li"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "Configuration.md",
+      "title": "Configuration guide",
+      "headings": {
+        "configuration-guide": "Configuration guide"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "DevOps.md",
+      "title": "DevOps guide",
+      "headings": {
+        "devops-guide": "DevOps guide",
+        "build-automation": "Build automation",
+        "continuous-integration-ci": "Continuous integration (CI)",
+        "code-coverage": "Code coverage",
+        "repository-wide-checks": "Repository-wide checks",
+        "making-a-release": "Making a release"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "DeveloperGuide.md",
+      "title": "Developer Guide",
+      "headings": {
+        "tuteedex-developer-guide": "TuteeDex Developer Guide",
+        "acknowledgements": "Acknowledgements",
+        "setting-up-getting-started": "Setting up, getting started",
+        "design": "Design",
+        "architecture": "Architecture",
+        "ui-component": "UI component",
+        "logic-component": "Logic component",
+        "model-component": "Model component",
+        "storage-component": "Storage component",
+        "common-classes": "Common classes",
+        "implementation": "Implementation",
+        "sorting-criteria": "Sorting criteria",
+        "weekly-subject-lessons": "Weekly subject lessons",
+        "combining-subject-and-tag-filters": "Combining subject and tag filters",
+        "shared-tag-data": "Shared tag data",
+        "student-name-validation": "Student name validation",
+        "csv-import": "CSV import",
+        "restoring-the-last-view": "Restoring the last view",
+        "archiving-students": "Archiving students",
+        "balance-commands": "Balance commands",
+        "documentation-logging-testing-dev-ops": "Documentation, logging, testing, dev-ops",
+        "appendix-requirements": "Appendix: Requirements",
+        "product-scope": "Product scope",
+        "user-stories": "User stories",
+        "use-cases": "Use cases",
+        "non-functional-requirements": "Non-Functional Requirements",
+        "glossary": "Glossary",
+        "appendix-instructions-for-manual-testing": "Appendix: Instructions for manual testing",
+        "launch-and-shutdown": "Launch and shutdown",
+        "deleting-a-student": "Deleting a student",
+        "listing-students-by-tags": "Listing students by tags",
+        "summary-flag-ordering": "Summary flag ordering",
+        "combining-subject-and-tag-filters-2": "Combining subject and tag filters",
+        "listing-archived-students": "Listing archived students",
+        "editing-a-student-profile": "Editing a student profile",
+        "preserving-edit-context": "Preserving edit context",
+        "editing-student-tags": "Editing student tags",
+        "editing-student-subjects": "Editing student subjects",
+        "normalizing-subject-spaces": "Normalizing subject spaces",
+        "editing-student-notes": "Editing student notes",
+        "viewing-help": "Viewing help",
+        "header-clock-and-command-results": "Header clock and command results",
+        "sorting-students": "Sorting students",
+        "importing-students": "Importing students",
+        "recording-payments-and-charges": "Recording payments and charges",
+        "archiving-students-2": "Archiving students",
+        "clearing-all-students": "Clearing all students",
+        "restoring-the-last-view-2": "Restoring the last view",
+        "saving-data": "Saving data",
+        "single-student-deletion-confirmation": "Single-student deletion confirmation"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "Documentation.md",
+      "title": "Documentation guide",
+      "headings": {
+        "documentation-guide": "Documentation Guide"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "Logging.md",
+      "title": "Logging guide",
+      "headings": {
+        "logging-guide": "Logging guide"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "SettingUp.md",
+      "title": "Setting up and getting started",
+      "headings": {
+        "setting-up-and-getting-started": "Setting up and getting started",
+        "setting-up-the-project-on-your-computer": "Setting up the project on your computer",
+        "before-writing-code": "Before writing code"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "Testing.md",
+      "title": "Testing guide",
+      "headings": {
+        "testing-guide": "Testing guide",
+        "running-tests": "Running tests",
+        "types-of-tests": "Types of tests"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "UserGuide.md",
+      "title": "User Guide",
+      "headings": {
+        "tuteedex-user-guide": "TuteeDex User Guide",
+        "quick-start": "Quick start",
+        "features": "Features",
+        "viewing-help-help": "Viewing help: help",
+        "adding-a-student-add": "Adding a student: add",
+        "viewing-a-student-profile-view": "Viewing a student profile: view",
+        "exporting-students-export": "Exporting students: export",
+        "importing-students-import": "Importing students: import",
+        "listing-and-filtering-students-list": "Listing and filtering students: list",
+        "sorting-the-current-display-sort": "Sorting the current display: sort",
+        "editing-a-student-profile-edit": "Editing a student profile: edit",
+        "recording-payments-paid": "Recording payments: paid",
+        "charging-a-student-charge": "Charging a student: charge",
+        "locating-students-by-name-find": "Locating students by name: find",
+        "deleting-a-student-delete": "Deleting a student: delete",
+        "archiving-a-student-archive": "Archiving a student: archive",
+        "unarchiving-a-student-unarchive": "Unarchiving a student: unarchive",
+        "clearing-all-students-clear": "Clearing all students: clear",
+        "exiting-the-program-exit": "Exiting the program: exit",
+        "saving-the-data": "Saving the data",
+        "reopening-where-you-left-off": "Reopening where you left off",
+        "editing-the-data-file": "Editing the data file",
+        "faq": "FAQ",
+        "known-issues": "Known issues",
+        "command-summary": "Command summary"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "index.md",
+      "title": "Home",
+      "headings": {
+        "landing-title": "Less admin.More teaching.",
+        "landing-features-title": "Keep the details. Find the overview.",
+        "know-each-student": "Know each student",
+        "see-who-you-teach-and-when": "See who you teach, and when",
+        "find-the-right-students": "Find the right students",
+        "put-your-next-lesson-first": "Put your next lesson first",
+        "keep-balances-and-records-clear": "Keep balances and records clear",
+        "bring-your-records-with-you": "Bring your records with you",
+        "landing-workflow-title": "A focused view isjust a command away.",
+        "landing-start-title": "Set up your tutoring desk.",
+        "get-java-25-ready": "Get Java 25 ready",
+        "download-the-app": "Download the app",
+        "launch-and-explore": "Launch and explore",
+        "landing-contribute-title": "Meet the people behind TuteeDex."
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "team/johndoe.md",
+      "title": "John Doe's Project Portfolio Page",
+      "headings": {
+        "project-tuteedex": "Project: TuteeDex"
+      },
+      "headingKeywords": {}
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+@startuml
+!include style.puml
+skinparam arrowThickness 1.1
+skinparam arrowColor STORAGE_COLOR
+skinparam classBackgroundColor STORAGE_COLOR
+skinparam classAttributeIconSize 0
+
+package Storage as StoragePackage {
+
+class Storage <<interface>>
+class StorageManager
+
+package "UserPrefs Storage" #F4F6F6{
+class JsonUserPrefsStorage
+}
+
+package "AddressBook Storage" #F4F6F6{
+class JsonAddressBookStorage
+class JsonSerializableAddressBook {
+    + toModelType(): AddressBook
+}
+class JsonAdaptedPerson {
+    - name: String
+    - phone: String
+    - address: String
+    - startDate: String
+    - outstandingAmount: String
+    - notes: String
+    - archived: boolean
+    + toModelType(): Person
+}
+class JsonAdaptedTag {
+    - tagName: String
+    + toModelType(): Tag
+}
+class JsonAdaptedSubject {
+    - name: String
+    - day: String
+    - time: String
+    + toModelType(): Subject
+}
+}
+
+}
+
+show JsonSerializableAddressBook methods
+show JsonAdaptedPerson members
+show JsonAdaptedTag members
+show JsonAdaptedSubject members
+
+StorageManager .up.|> Storage
+StorageManager -down-> "1" JsonUserPrefsStorage
+StorageManager -down-> "1" JsonAddressBookStorage
+
+JsonAddressBookStorage ..> JsonSerializableAddressBook
+JsonSerializableAddressBook --> "0..*" JsonAdaptedPerson : persons
+JsonAdaptedPerson -right-> "0..*" JsonAdaptedTag : tags
+JsonAdaptedPerson -left-> "0..*" JsonAdaptedSubject : subjects
+
+@enduml
